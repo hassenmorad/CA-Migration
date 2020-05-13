@@ -1,4 +1,4 @@
-# IRS CA in-migration from other states (1990-2010)
+# IRS CA in-migration from other states (2012-2018)
 import pandas as pd
 import numpy as np
 import os
