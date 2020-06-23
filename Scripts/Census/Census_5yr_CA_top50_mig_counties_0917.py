@@ -31,7 +31,7 @@ for year in ca0917.Year.sort_values().unique():
             ca_out_in = ca_mig.copy()
         elif counter == 1:
             ca_out_in = ca_out_in.merge(ca_mig, on=['FIPS', 'County_State'])
-            ca_out_in = ca_out_in.rename({'MovedOut':'Inmig', 'MovedIn':'Outmig'}, axis=1)
+            ca_out_in = ca_out_in.rename({'MovedOut':'Outmig', 'MovedIn':'Inmig'}, axis=1)
             ca_out_in['Net_Mig'] = ca_out_in.Inmig - ca_out_in.Outmig
             ca_out_in = ca_out_in.sort_values('Net_Mig')
         counter += 1
