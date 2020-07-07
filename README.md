@@ -1,7 +1,7 @@
 # California Migration Analysis
 
 This repository contains all files used to analyze issues California's migration patterns, resulting in the following research report:
-[**Is California Out Migration Fueled By Unaffordable Housing?**](https://hassenmorad.github.io/CA_migration.html)
+[**Is California Out-Migration Fueled By Unaffordable Housing?**](https://hassenmorad.github.io/CA_migration.html)
 
 ## Data Sources:
 1. Migration
